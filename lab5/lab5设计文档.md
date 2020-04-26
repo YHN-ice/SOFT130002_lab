@@ -13,3 +13,12 @@ for语句<br>if else 语句<br>String的substring函数<br>使用了addEventList
 ----
 3、先声明两个数组`chars`和`times`,分别存放`most.value`里面去重以后的字符和各字符出现的次数。用`for`循环遍历`most.value`，并通过`for`循环遍历`chars`来检查字符是否已出现（`most.value`中的第一个字符直接加入`times`中），若已出现，则对应索引处的`times[j]++`,否则向`chars`中加入新的元素，并`times[newIndex] = 1`，最后通过`for`循环比较得出`times`中最大值的索引，得到出现次数最多的字符和相应的次数
 
+### GitHub截图
+
+----
+![GitHub截图](lab5需求文档.assets/github截图.png)
+
+### 网页效果截图
+
+----
+![网页效果截图](lab5需求文档.assets/网页效果截图.png)
